@@ -46,6 +46,7 @@ function App() {
 
       spotify.getPlaylist('5AB8YQbSCDEQYagQDn4so3')
       .then((discover_weekly) => {
+        
         dispatch({
           type: 'SET_WEEKLY_DISCOVER',
           discover_weekly: discover_weekly

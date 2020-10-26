@@ -5,7 +5,7 @@ export const initialState = {
     playing : false,
     item : null,
     discover_weekly: [],
-    // token: 'BQB7obC8teVENbTAjGeE8HpPxEmK-78g6eupvvBmMwrmVjc7bktn3zi-P6fwvG73QhKvRA2tAPjgb7DoyIas9hm7a2LVUj9XkFXSmyzdHVgeGwi4SVdJFa6cJZ3M9aT8NB_rV2OY0-jaERnyl7cBx9BEa1gFB8c_9Bw-KY9_6XldgAHPBcwO',
+    token: '',
 }
 
 export const reducer = (state, action) => {
